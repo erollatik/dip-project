@@ -4,7 +4,7 @@ import numpy as np
 import requests
 
 # Resmi URL'den alıp boyutlandırma işlemi yapıyorsunuz
-image_url = 'https://a57.foxnews.com/media.foxbusiness.com/BrightCove/854081161001/201805/2879/931/524/854081161001_5782482890001_5782477388001-vs.jpg'
+image_url = 'https://www.lohud.com/gcdn/-mm-/533061fba3eeeda2e32e2af9f6af8339e3ee2601/c=0-237-3903-2442/local/-/media/2018/06/27/Westchester/Westchester/636657043064912314-fb062718traffic07.jpg?width=3200&height=1808&fit=crop&format=pjpg&auto=webp'
 response = requests.get(image_url, stream=True)
 image = Image.open(response.raw)
 image = image.resize((450, 250))
