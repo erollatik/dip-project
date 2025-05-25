@@ -193,7 +193,7 @@ def detect_vehicles(image_path):
 
 def main():
     # Görüntü yolu
-    image_path = '/Users/erolatik/Desktop/arac1.jpeg'  # Kendi görüntünüzün yolunu belirtin
+    image_path = 'arac.jpeg'  # Kendi görüntünüzün yolunu belirtin
 
     # Araç tespiti yap
     result = detect_vehicles(image_path)
